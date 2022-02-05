@@ -37,8 +37,15 @@ namespace ScanFluent
 				WriteLine("No features added!");
 				return;
 			}
+			
 				
 			string text = File.ReadAllText(Path);
+
+			if (string.IsNullOrEmpty(text))
+			{
+				WriteLine("Text is empty");
+				return;
+			}
 
 			foreach (var feature in Features)
 			{
