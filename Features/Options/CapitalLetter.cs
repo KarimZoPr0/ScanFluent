@@ -7,7 +7,7 @@ namespace ScanFluent
 	{
 		public string Id() => "2";
 
-		public string Description() => "Capital letter after period";
+		public string Description() => "Capital letter after (.?!)";
 
 		public string Pattern() => @"[\.\?\!]\s+([åäöa-z])";
 
