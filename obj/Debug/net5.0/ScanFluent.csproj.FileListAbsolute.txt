@@ -1,0 +1,16 @@
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\bin\Debug\net5.0\ScanFluent.exe
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\bin\Debug\net5.0\ScanFluent.deps.json
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\bin\Debug\net5.0\ScanFluent.runtimeconfig.json
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\bin\Debug\net5.0\ScanFluent.runtimeconfig.dev.json
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\bin\Debug\net5.0\ScanFluent.dll
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\bin\Debug\net5.0\ref\ScanFluent.dll
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\bin\Debug\net5.0\ScanFluent.pdb
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ScanFluent.csproj.AssemblyReference.cache
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ScanFluent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ScanFluent.AssemblyInfoInputs.cache
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ScanFluent.AssemblyInfo.cs
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ScanFluent.csproj.CoreCompileInputs.cache
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ScanFluent.dll
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ref\ScanFluent.dll
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ScanFluent.pdb
+C:\Users\Abdikarim\RiderProjects\ScanFluent\ScanFluent\obj\Debug\net5.0\ScanFluent.genruntimeconfig.cache
