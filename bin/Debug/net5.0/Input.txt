@@ -1,7 +1,7 @@
 Här har  vi         flera       mellanrum.
 
-Här vi storboktav efter punkt. storbokstav.
+Här fattas storboktav efter punkt. storbokstav.
 
-Här har vi storbokstav efter frågetecken? frågetecken.
+Här fattas storbokstav efter frågetecken? frågetecken.
 
-Här har vi storbokstav efter utropstecken! utropstecken.
+Här fattas storbokstav efter utropstecken! utropstecken.
