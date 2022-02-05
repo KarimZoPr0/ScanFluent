@@ -9,7 +9,7 @@ namespace Rextester
 		public string Description();
 		public string Pattern();
 
-		public string Result(Match match);
+		public string Replacement(Match match);
 
 	}
 }

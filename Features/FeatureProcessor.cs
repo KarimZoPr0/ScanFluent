@@ -44,7 +44,7 @@ namespace ScanFluent
 			{
 				var regexCasing = new Regex(feature.Pattern(), RegexOptions.Multiline);
 
-				text = regexCasing.Replace(text, feature.Result);
+				text = regexCasing.Replace(text, feature.Replacement);
 				File.WriteAllText(path, $"{text}");
 			}
 

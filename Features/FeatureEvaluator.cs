@@ -9,8 +9,8 @@ namespace ScanFluent
 	{
 		public static List<IFeature> features = new()
 		{
-			new UpperCase(),
-			new SpaceBetweenLetters()
+			new CapitalLetter(),
+			new WhiteSpace()
 		};
 
 		public static IEnumerable<IFeature> FeatureQuery = features.OrderBy(feature => feature.Id());
