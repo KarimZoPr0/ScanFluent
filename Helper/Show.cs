@@ -11,7 +11,7 @@ namespace ScanFluent
 			WriteLine("Choose a command");
 			WriteLine("-----------------------");
 
-			CommandEvaluator.commands.ForEach(command => WriteLine($"{command.Id()}"));
+			CommandEvaluator.Commands.ForEach(command => WriteLine($"{command.Id()}"));
 			WriteLine();
 		}
 

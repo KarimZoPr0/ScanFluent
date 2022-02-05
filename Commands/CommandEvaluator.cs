@@ -4,7 +4,7 @@ namespace ScanFluent.Commands
 {
 	public static class CommandEvaluator
 	{
-		public static List<Command> commands = new()
+		public static readonly List<Command> Commands = new()
 		{
 			new AddCommand(),
 			new RemoveCommand(),
@@ -12,6 +12,6 @@ namespace ScanFluent.Commands
 			new ExitCommand(),
 			new StartCommand()
 		};
-		public static IEnumerable<Command> CommandFactories() => commands;
+		public static IEnumerable<Command> CommandFactories() => Commands;
 	}
 }

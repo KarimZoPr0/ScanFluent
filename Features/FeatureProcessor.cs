@@ -10,7 +10,7 @@ namespace ScanFluent
 {
 	public class FeatureProcessor : Component
 	{
-		private static string path = "input.txt";
+		private const string Path = "input.txt";
 		public FeatureProcessor(string name) : base(name) { }
 		
 		public Action<FeatureProcessor, IFeature>? AddEvent;
@@ -38,14 +38,14 @@ namespace ScanFluent
 				return;
 			}
 				
-			string text = File.ReadAllText(path);
+			string text = File.ReadAllText(Path);
 
 			foreach (var feature in Features)
 			{
 				var regexCasing = new Regex(feature.Pattern(), RegexOptions.Multiline);
 
 				text = regexCasing.Replace(text, feature.Replacement);
-				File.WriteAllText(path, $"{text}");
+				File.WriteAllText(Path, $"{text}");
 			}
 
 			WriteLine("Complete!");

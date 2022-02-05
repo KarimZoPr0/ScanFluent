@@ -1,5 +1,4 @@
-﻿using System;
-using Rextester;
+﻿using Rextester;
 
 namespace ScanFluent
 {
@@ -7,7 +6,6 @@ namespace ScanFluent
 	{
 		public readonly string Name;
 		protected Component(string name) => (Name) = (name);
-
 		public abstract void Add(IFeature s);
 		public abstract void Remove(IFeature s);
 	}

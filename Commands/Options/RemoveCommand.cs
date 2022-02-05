@@ -19,7 +19,7 @@ namespace ScanFluent.Commands
 
 			foreach (var command in commands)
 			{
-				var scanType = FeatureEvaluator.features.Single(x => x.Id() == command);
+				var scanType = FeatureEvaluator.Features.Single(x => x.Id() == command);
 				if (!processor.HasFeature(scanType))
 				{
 					WriteLine($"Feature {scanType.Id()} is not added yet!");
