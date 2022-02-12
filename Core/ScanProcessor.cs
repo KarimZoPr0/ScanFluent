@@ -9,15 +9,15 @@ namespace ScanFluent
 	{
 		private static FeatureProcessor GetFeatureProcessor()
 		{
-			string? title = null;
+			string? path = null;
 
-			while (string.IsNullOrEmpty(title))
+			while (!File.Exists(path + ".txt"))
 			{
-				Write("Title of the scan: ");
-				title = Convert.ToString(ReadLine());
+				Write("Text: "); 
+				path = Convert.ToString(ReadLine());
 			}
 
-			var processor = new FeatureProcessor(title);
+			var processor = new FeatureProcessor(path);
 			processor.ApplyEvents();
 
 			WriteLine();
@@ -38,9 +38,9 @@ namespace ScanFluent
 			processor.RemoveEvent += OnFeatureRemove;
 		}
 
-		private static void OnFeatureAdd(FeatureProcessor processor, IFeature feature) => WriteLine($"-Added feature {feature.Id()} to {processor.Name}");
+		private static void OnFeatureAdd(FeatureProcessor processor, IFeature feature) => WriteLine($"-Added feature {feature.Id()} to {processor.Path}");
 
-		private static void OnFeatureRemove(FeatureProcessor processor, IFeature feature) => WriteLine($"-Removed feature {feature.Id()} from {processor.Name}");
+		private static void OnFeatureRemove(FeatureProcessor processor, IFeature feature) => WriteLine($"-Removed feature {feature.Id()} from {processor.Path}");
 
 		#endregion
 	}

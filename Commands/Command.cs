@@ -11,7 +11,7 @@ namespace ScanFluent.Commands
 			Write(text);
 			var userInput = ReadLine();
 
-			return userInput?.Split(",");
+			return userInput?.Split(",")!;
 		}
 
 		public abstract string Id();

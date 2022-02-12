@@ -1,7 +1,9 @@
-Här har  vi         flera       mellanrum.
+Här har vi flera mellanrum.
 
-Här fattas storboktav efter punkt. storbokstav.
+Här fattas storboktav efter punkt. Storbokstav.
 
-Här fattas storbokstav efter frågetecken? frågetecken.
+Här fattas storbokstav efter frågetecken? Frågetecken.
 
-Här fattas storbokstav efter utropstecken! utropstecken.
+Här fattas storbokstav efter utropstecken! Utropstecken.
+
+Vi blandar några Stycken. Eller? Vad tycker vi om detta?

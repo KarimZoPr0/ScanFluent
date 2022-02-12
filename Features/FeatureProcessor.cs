@@ -10,8 +10,7 @@ namespace ScanFluent
 {
 	public class FeatureProcessor : Component
 	{
-		private const string Path = "input.txt";
-		public FeatureProcessor(string name) : base(name) { }
+		public FeatureProcessor(string? path) : base(path) { }
 		
 		public Action<FeatureProcessor, IFeature>? AddEvent;
 		public Action<FeatureProcessor, IFeature>? RemoveEvent;
@@ -38,14 +37,14 @@ namespace ScanFluent
 				return;
 			}
 			
-				
-			string text = File.ReadAllText(Path);
-
-			if (string.IsNullOrEmpty(text))
+			if (File.Exists(Path))
 			{
-				WriteLine("Text is empty");
+				WriteLine("File Doesn't exist");
 				return;
 			}
+			
+			string text = File.ReadAllText(Path);
+			
 
 			foreach (var feature in Features)
 			{
